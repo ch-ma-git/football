@@ -4,8 +4,6 @@ docker build --build-arg DOCKER_BASE=ubuntu:18.04 --build-arg DEVICE=cpu . -t gf
 docker run --entrypoint bash -it gfootball_docker_test -c 'set -e; for x in `find gfootball -name *_test.py`; do UNITTEST_IN_DOCKER=1 PYTHONPATH=/ python3 $x; done'
 docker run --entrypoint python3 -it gfootball_docker_test gfootball/examples/run_ppo2.py --level=academy_empty_goal_close --num_timesteps=10000
 echo "Test successful!!!"
-<<<<<<< HEAD
+Zeile aus Feature-Branch
 Waehend Reset
-=======
 Nach Reset
->>>>>>> 8ed669e613d2b7d011f41eec6c149138bb36cb01
