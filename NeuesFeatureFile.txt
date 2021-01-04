@@ -1,1 +1,3 @@
 Hallo neues File
+Ändern für das stash-Beispiel. Branch: master
+Ändern 2 für das stash-Beispiel. Branch: master
